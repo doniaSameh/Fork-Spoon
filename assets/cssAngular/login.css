@@ -1,0 +1,623 @@
+.loginpage{
+    /* login page */
+    
+    
+    position: relative;
+    width: 360px;
+    height: 800px;
+    
+    background: linear-gradient(180deg, #FE5F59 0%, rgba(255, 94, 88, 0.267519) 50.85%, rgba(255, 94, 88, 0) 100%);
+    filter: drop-shadow(2px 4px 15px rgba(0, 0, 0, 0.25));
+    }
+    .textdec{
+        text-decoration: none;
+        color: #000000;
+    }
+    .rec55{
+        /* Rectangle 55 */
+    
+    
+    position: absolute;
+    width: 360px;
+    height: 619px;
+    left: 0px;
+    top: 176px;
+    
+    background: #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+    }
+    .loginbtn{
+    /* login */
+    
+    background-color: #f26b66b5;
+    /* //position: static; */
+    width: 150px;
+    height: 26px;
+    margin-left: 190px;
+    top: 30px;
+    
+    }
+    .rec51{
+        /* Rectangle 51 */
+    
+    
+    position: absolute;
+    width: 85px;
+    height: 2px;
+    left: 44px;
+    top: 55px;
+    
+    background: linear-gradient(180deg, #FE5F59 0%, rgba(254, 95, 89, 0) 100%);
+    }
+    .login{
+        /* Login */
+    margin-left: 45px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+   font-weight: bold;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #121212;
+    }
+    .forknspoon{
+        /* Fork & Spoon */
+    
+    
+    position: absolute;
+    width: 254px;
+    height: 52px;
+    left: 10px;
+    top: 68px;
+    
+    font-family: 'Salsa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #eee7e7;
+    }
+    .signupbtn{
+        /* Sign up */
+    
+    
+    position: absolute;
+    width: 150px;
+    height: 24px;
+    left: 250px;
+    top: 30px;
+    }
+    .signup{
+        /* Sign up */
+    
+    
+    position: absolute;
+    width: 150px;
+    height: 24px;
+    left: 250px;
+    top: 30px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #121212;
+    }
+    .grp5{
+        /* Group 5 */
+    
+    
+    position: absolute;
+    width: 320px;
+    height: 83px;
+    left: 20px;
+    top: 250px;
+    }
+    .email{
+        /* Email: */
+    
+    
+    position: absolute;
+    width: 320px;
+    height: 21px;
+    left: 5px;
+    top: -150px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    color: #121212;
+    }
+    .uremail{
+        /* Your Email */
+    
+    
+    position: absolute;
+    width: 95px;
+    height: 22px;
+    left: 9px;
+    top: 15px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    
+    color: #b1a5a5;
+    }
+    .emailbox{
+        /* Email/Phone */
+    
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 320px;
+    height: 57px;
+    left: 4px;
+    top: -120px;
+    
+    background: #F3F3F3;
+    border-radius: 10px;
+    }
+    .grp6{
+        /* Group 6 */
+    
+    
+    position: absolute;
+    width: 320px;
+    height: 83px;
+    left: 20px;
+    top: 358px;
+    }
+    .pass{
+        /* Password: */
+    
+    
+    position: absolute;
+    width: 320px;
+    height: 21px;
+    left: 5px;
+    top: -150px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    color: #121212;
+    }
+    .urpass{
+       /* Your Password */
+    
+    
+    position: absolute;
+    width: 95px;
+    height: 22px;
+    left: 9px;
+    top: 17px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    
+    color: #b1a5a5;
+    
+    }
+    .passbox{
+        /* Password */
+    
+    
+        position: absolute;
+        width: 320px;
+        height: 57px;
+        left: 5px;
+        top: -120px;
+        
+        background: #F3F3F3;
+        border-radius: 10px;
+    }
+    .rmbrme{
+        /* Remembe rme */
+    
+    
+    position: absolute;
+    width: 78px;
+    height: 12px;
+    left: 20px;
+    top: 452px;
+    
+    }
+    .rec43{
+        /* Rectangle 43 */
+    
+    
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 9px;
+    top: -145px;
+    background-color: #eee7e7;
+    }
+    .rmbr{
+        /* Remeber me */
+    
+    
+    position: absolute;
+    width: 61px;
+    height: 11px;
+    left: 25px;
+    top: -145px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    
+    color: #181818;
+    }
+    .btn{
+        /* Button */
+    
+    
+    position: absolute;
+    width: 320px;
+    height: 40px;
+    left: 20px;
+    top: 485px;
+    }
+    .logintxt{
+        /* Login */
+    
+    
+    position: absolute;
+    width: 320px;
+    height: 19px;
+    left: 170px;
+    top: 539px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #ede2e2;
+    }
+    .rec4{
+        /* Rectangle 4 */
+    
+    
+    position: absolute;
+    width: 315.49px;
+    height: 40px;
+    left: 22.25px;
+    top: 345px;
+    
+    background: #FE5F59;
+    border-radius: 10px;
+    }
+    .shadow{
+        /* shadow */
+    
+    
+    position: absolute;
+    width: 302.19px;
+    height: 36px;
+    left: 35.58px;
+    top: 345px;
+    
+    background: rgba(255, 94, 88, 0.5);
+    filter: blur(11px);
+    border-radius: 10px;
+    }
+    .forgetpass{
+        /* Forgot password? */
+    
+    
+    position: absolute;
+    width: 88px;
+    height: 17px;
+    left: 257px;
+    top: 489px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    
+    color: #7B61FF;
+    }
+    .line6{
+        /* Line 6 */
+    
+    
+    position: absolute;
+    width: 52.04px;
+    height: 0px;
+    left: 205.02px;
+    top: 590px;
+    
+    border: 1px solid #181818;
+    }
+    .line5{
+        /* Line 5 */
+    
+    
+    position: absolute;
+    width: 52.04px;
+    height: 0px;
+    left: 120px;
+    top: 590px;
+    
+    border: 1px solid #181818;
+    }
+    .or{
+        /* OR */
+    
+    
+    position: absolute;
+    width: 14px;
+    height: 12px;
+    left: 183px;
+    top: 586px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #181818;
+    }
+    .facebook{
+    /* facebook */
+    
+    
+    position: absolute;
+    width: 124px;
+    height: 34px;
+    left: 0px;
+    top: 20px;
+    }
+    .contface{
+        /* continue with Facebook */
+    
+    
+    position: absolute;
+    width: 100px;
+    height: 17px;
+    left: 66px;
+    top: 607px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    display: flex;
+    align-items: center;
+    
+    color: #121212;
+    }
+    .rec76{
+        /* Rectangle 76 */
+    
+    
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    left: 51px;
+    top: 600px;
+    
+    background: #F3F3F3;
+    border-radius: 20px;
+    }
+    .shadow1{
+        /* shadow */
+    
+    
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    left: 55px;
+    top: 604px;
+    
+    background: rgba(196, 196, 196, 0.5);
+    filter: blur(7.5px);
+    border-radius: 20px;
+    }
+    .google{
+        /* google */
+    
+    
+    position: absolute;
+    width: 124px;
+    height: 34px;
+    left: 160px;
+    top: 20px;
+    }
+    .contgoogle{
+        /* continue with Google */
+    
+    
+    position: absolute;
+    width: 89px;
+    height: 17px;
+    left: 210px;
+    top: 607px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    display: flex;
+    align-items: center;
+    
+    color: #121212;
+    
+    }
+    .clock{
+        /* 9:41 */
+    
+    
+    position: absolute;
+    width: 54px;
+    height: 20px;
+    left: 13px;
+    top: 20px;
+    
+    /* Default/Bold/Subheadline */
+    
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+    
+    text-align: center;
+    letter-spacing: -0.5px;
+    
+    color: #000000;
+    }
+    .rs{
+        /* Right Side */
+    
+    
+    position: absolute;
+    width: 66.66px;
+    height: 11.34px;
+    left: 269px;
+    top: 12px;
+    }
+    .mobsignal{
+        /* Mobile Signal */
+    
+    
+    position: absolute;
+    width: 17px;
+    height: 10.67px;
+    left: 5px;
+    top: 12.34px;
+    
+    
+    }
+    .wifi{
+        /* Wifi */
+    
+    
+    position: absolute;
+    width: 15.27px;
+    height: 10.97px;
+    left: 25px;
+    top: 12px;
+    
+    
+    }
+    .batt{
+        /* Battery */
+    
+    
+    position: absolute;
+    left: 70.48%;
+    right: 6.76%;
+    top: 105.9%;
+    bottom: 93.08%;
+    }
+    .rec{
+        /* Rectangle */
+    
+    
+    position: absolute;
+    width: 18px;
+    height: 7.33px;
+    left: calc(50% - 18px/2 + 142.33px);
+    top: 14px;
+    
+    background: #070707;
+    border-radius: 1.1px;
+    }
+    .comshape{
+        /* Combined Shape */
+    
+    
+    position: absolute;
+    width: 1.33px;
+    height: 4px;
+    left: calc(50% - 1.33px/2 + 155px);
+    top: 15.67px;
+    
+    background: #070707;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+    }
+    .rec2{
+        /* Rectangle */
+    
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 22px;
+    height: 11.33px;
+    left: calc(50% - 22px/2 + 142.33px);
+    top: 12px;
+    
+    background: #070707;
+    mix-blend-mode: normal;
+    opacity: 0.35;
+    border: 1px solid #050505;
+    border-radius: 2.66667px;
+    }
+    .img{
+        /* WhatsApp Image 2022-12-13 at 6.43 2 */
+    
+    
+    position: absolute;
+    width: 114px;
+    height: 110px;
+    left: 231px;
+    top: 46px;
+    border-radius: 53px;
+    }
