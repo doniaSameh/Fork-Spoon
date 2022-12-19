@@ -1,5 +1,5 @@
 <?php
-require_once('../../database-manager/database-object.php');
+require_once($_SERVER['DOCUMENT_ROOT']."/fork&spoon/database-manager/database-object.php");
 
 $email = $_POST['email'];
 // Check if user exists in database

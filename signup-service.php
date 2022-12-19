@@ -8,7 +8,7 @@ $data = array(
     "role" => "customer",
     "status" => "pending"
 );
-echo "hi".$data;
+echo "hi";
 $id = $db->insert('users', $data);
 
 if ($id) {
