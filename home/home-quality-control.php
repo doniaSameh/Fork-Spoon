@@ -18,6 +18,11 @@ foreach ($users as $user) {
         $approveText = '<div class="text-warning">' . $user['status'] . '</div>';
     }
 
+    $disableEnableOption = '<a onclick="handleDisableClick(' . $user['id'] . ')" class="dropdown-item text-danger" data-toggle="modal" data-target="#disableModal" href="#">Disable</a>';
+    if ($user['isDisabled']) {
+        $disableEnableOption = '<a onclick="handleEnableClick(' . $user['id'] . ')" class="dropdown-item text-success" href="#">Enable</a>';
+    }
+
     $promoteOption = '';
     if ($user['role'] == 'customerService') {
         $promoteOption = '<a onclick="handlePromote(' . $user['id'] . ')" class="dropdown-item" href="#">Promote</a>';
@@ -28,7 +33,6 @@ foreach ($users as $user) {
     if ($user['isDisabled']) {
         $disabledText = '<div class="text-danger">Yes</div>';
     }
-
 
     $usersResult .= '<tr>' .
         '<td>' . $user['id'] . '</td>' .
@@ -66,6 +70,7 @@ foreach ($users as $user) {
             <tr>
                 <th>#</th>
                 <th>Name</th>
+                <th>Is Disabled ?</th>
                 <th>Status</th>
                 <th>Email</th>
                 <th>Role</th>
